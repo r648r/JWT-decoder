@@ -1,0 +1,267 @@
+{
+  "userAgents": {
+    "Mac": {
+      "Chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Firefox": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:70.0) Gecko/20100101 Firefox/70.0",
+      "Edge": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/604.1 Edg/91.0.100.0",
+      "Safari": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15",
+      "Default": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15"
+    },
+    "Windows": {
+      "IE": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+      "Chrome": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Firefox": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:70.0) Gecko/20100101 Firefox/70.0",
+      "Edge": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19042",
+      "Default": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19042"
+    },
+    "AndroidMobile": {
+      "Android": "Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+      "Chrome": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Mobile Safari/537.36",
+      "Firefox": "Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0",
+      "Edge": "Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM4.171019.021.D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 EdgA/42.0.0.2057",
+      "Default": "Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+    },
+    "iPhone": {
+      "Chrome": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/91.0.4472.114 Mobile/15E148 Safari/604.1",
+      "Firefox": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) FxiOS/1.0 Mobile/12F69 Safari/600.1.4",
+      "Edge": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 EdgiOS/44.5.0.10 Mobile/15E148 Safari/604.1",
+      "Safari": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+      "Default": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+    },
+    "Default": {
+      "Android": "Mozilla/5.0 (Linux; U; Android 4.0.2; en-us; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+      "IE": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+      "Chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+      "Firefox": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:70.0) Gecko/20100101 Firefox/70.0",
+      "Safari": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15",
+      "Default": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+    }
+  },
+  "claimInfo": {
+    "aud": {
+      "acronym": "Audience",
+      "category": "Token Details",
+      "description": "Audience of the token, indicating the intended recipient, e.g., https://graph.microsoft.com for Microsoft Graph.",
+      "microsoft": "https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims-reference#additionalproperties-of-optional-claims"
+    },
+    "iss": {
+      "acronym": "Issuer",
+      "category": "Token Details",
+      "description": "Issuer of the token, e.g., https://sts.windows.net/{tenant_id}/, representing a Microsoft security token service (STS)."
+    },
+    "iat": {
+      "acronym": "Issued At",
+      "category": "Token Details",
+      "description": "Issued At, the date when the token was issued."
+    },
+    "nbf": {
+      "acronym": "Not Before",
+      "category": "Token Details",
+      "description": "Not Before, the date from which the token becomes valid."
+    },
+    "exp": {
+      "acronym": "Expiration",
+      "category": "Token Details",
+      "description": "Expiration, the date when the token expires."
+    },
+    "aio": {
+      "acronym": "Azure Internal Opaque",
+      "category": "Token Details",
+      "description": "Azure internal opaque value containing information about the token."
+    },
+    "scp": {
+      "acronym": "Scope",
+      "category": "Token Details",
+      "description": "Scope of the token, listing the permissions granted."
+    },
+    "acr": {
+      "acronym": "Authentication Context Class Reference",
+      "category": "User & Authentication Details",
+      "description": "Authentication Context Class Reference, indicating the level of authentication assurance."
+    },
+    "amr": {
+      "acronym": "Authentication Methods Reference",
+      "category": "User & Authentication Details",
+      "description": "Authentication Methods Reference, listing the methods used, e.g., pwd (password), mfa (multi-factor authentication)."
+    },
+    "family_name": {
+      "acronym": "Family Name",
+      "category": "User & Authentication Details",
+      "description": "Family name (last name) of the user."
+    },
+    "given_name": {
+      "acronym": "Given Name",
+      "category": "User & Authentication Details",
+      "description": "Given name (first name) of the user."
+    },
+    "name": {
+      "acronym": "Name",
+      "category": "User & Authentication Details",
+      "description": "Full name of the user."
+    },
+    "oid": {
+      "acronym": "Object ID",
+      "category": "User & Authentication Details",
+      "description": "Object ID of the user in Azure AD."
+    },
+    "signin_state": {
+      "acronym": "Sign-in State",
+      "category": "User & Authentication Details",
+      "description": "Sign-in state, e.g., kmsi (Keep Me Signed In)."
+    },
+    "ipaddr": {
+      "acronym": "IP Address",
+      "category": "User & Authentication Details",
+      "description": "IP address from which the authentication was performed."
+    },
+    "sub": {
+      "acronym": "Subject",
+      "category": "User & Authentication Details",
+      "description": "Subject of the token, a unique value assigned to the user."
+    },
+    "unique_name": {
+      "acronym": "Unique Name",
+      "category": "User & Authentication Details",
+      "description": "Unique name of the user, often the email address."
+    },
+    "upn": {
+      "acronym": "User Principal Name",
+      "category": "User & Authentication Details",
+      "description": "User Principal Name of the user.",
+      "microsoft": "https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims-reference#additionalproperties-of-optional-claims"
+    },
+    "app_displayname": {
+      "acronym": "Application Display Name",
+      "category": "Application & Tenant Details",
+      "description": "Display name of the application using the token."
+    },
+    "appid": {
+      "acronym": "Application ID",
+      "category": "Application & Tenant Details",
+      "description": "Application ID of the app requesting the token."
+    },
+    "tid": {
+      "acronym": "Tenant ID",
+      "category": "Application & Tenant Details",
+      "description": "Tenant ID representing the Azure AD tenant."
+    },
+    "tenant_region_scope": {
+      "acronym": "Tenant Region Scope",
+      "category": "Application & Tenant Details",
+      "description": "Tenant region, e.g., EU for Europe."
+    },
+    "appidacr": {
+      "acronym": "Application Authentication Context Reference",
+      "category": "Application & Tenant Details",
+      "description": "Authentication context reference for the application."
+    },
+    "platf": {
+      "acronym": "Platform",
+      "category": "User & Authentication Details",
+      "description": "The platform from which the request is initiated, e.g., Windows, Android."
+    },
+    "puid": {
+      "acronym": "Passport Unique ID",
+      "category": "User & Authentication Details",
+      "description": "A unique ID used by Microsoft Passport."
+    },
+    "rh": {
+      "acronym": "Refresh Token Handle",
+      "category": "Refresh Token",
+      "description": "An opaque value used to track and manage refresh tokens.",
+      "microsoft": "https://learn.microsoft.com/en-us/entra/identity-platform/refresh-tokens"
+    },
+    "spn": {
+      "acronym": "Service Principal Name",
+      "category": "Application & Tenant Details",
+      "description": "Service Principal Name related to the application."
+    },
+    "uti": {
+      "acronym": "Unique Token Identifier",
+      "category": "Token Details",
+      "description": "Unique identifier for the token, used for diagnostics."
+    },
+    "ver": {
+      "acronym": "Token Version",
+      "category": "Token Details",
+      "description": "The version of the issued token, typically indicating the token format."
+    },
+    "xms_dlr": {
+      "acronym": "Directory Lookup Result",
+      "category": "Token Details",
+      "description": "Information about the directory lookup result, e.g., a flag indicating a specific lookup outcome."
+    },
+    "xms_tpl": {
+      "acronym": "Tenant Policy",
+      "category": "Application & Tenant Details",
+      "description": "Tenant policy information, often relating to conditional access policies."
+    },
+    "xms_tcdt": {
+      "acronym": "Token Cache Deletion Timestamp",
+      "category": "Refresh Token",
+      "description": "The timestamp at which the token cache was deleted or expired."
+    },
+    "xms_tbrh": {
+      "acronym": "Token Binding Reference Handle",
+      "category": "Token Details",
+      "description": "Reference handle for token binding, used for security purposes."
+    },
+    "xms_tdbr": {
+      "acronym": "Token Decryption Binary Result",
+      "category": "Token Details",
+      "description": "Binary result associated with the token decryption."
+    },
+    "wids": {
+      "acronym": "Well-known Client ID Security Groups",
+      "category": "Application & Tenant Details",
+      "description": "List of well-known security identifiers for client applications."
+    },
+    "xms_idrel": {
+      "acronym": "Identity Relation",
+      "category": "User & Authentication Details",
+      "description": "Indicates the relationship or delegation of identity, typically used in certain authentication contexts."
+    },
+    "onprem_sid": {
+      "acronym": "On-Premises Security Identifier",
+      "category": "User & Authentication Details",
+      "description": "Security identifier (SID) of the on-premises user, used in hybrid identity scenarios."
+    },
+    "acct": {
+      "acronym": "Account Status",
+      "category": "User & Authentication Details",
+      "description": "Indicates the account status, e.g., 0 for active."
+    },
+    "idtyp": {
+      "acronym": "Token type",
+      "category": "Token Details",
+      "description": "type of token (app, user, device). By default its only emitted for app-only tokens.",
+      "microsoft": "https://learn.microsoft.com/en-us/entra/identity-platform/optional-claims-reference#additionalproperties-of-optional-claims"
+    }
+  },
+  "dangerousScopes": [
+    "User.ReadWrite.All",
+    "Directory.ReadWrite.All",
+    "Mail.ReadWrite",
+    "Mail.Send",
+    "Files.ReadWrite.All",
+    "Sites.FullControl.All",
+    "Group.ReadWrite.All",
+    "PrivilegedAccess.ReadWrite.AzureAD",
+    "Application.ReadWrite.OwnedBy",
+    "Reports.Read.All",
+    "Calendars.ReadWrite",
+    "Contacts.ReadWrite",
+    "Tasks.ReadWrite",
+    "DeviceManagementManagedDevices.ReadWrite.All",
+    "IdentityRiskEvent.Read.All",
+    "Policy.ReadWrite.ConditionalAccess",
+    "RoleManagement.ReadWrite.Directory",
+    "Domain.ReadWrite.All",
+    "SecurityEvents.ReadWrite.All",
+    "Sites.Manage.All",
+    "TeamsAppInstallation.ReadWriteForUser.All",
+    "ExternalItem.ReadWrite.All",
+    "Reports.ReadWrite.All",
+    "Sites.Read.All"
+  ]
+}
