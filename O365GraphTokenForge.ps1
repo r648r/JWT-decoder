@@ -93,7 +93,7 @@ function Get-GraphTokens {
                         '^Mail'              { $group = 'Mail' }
                         '^People'            { $group = 'People' }
                         '^Print'             { $group = 'Print' }
-                        '^SensitiveInfoType' { $group = 'SensitiveInfoType' }
+                        '^Sensitive'         { $group = 'Sensitive' }
                         '^Tasks'             { $group = 'Tasks' }
                         '^Team'              { $group = 'Team' }
                         '^User'              { $group = 'User' }
@@ -352,8 +352,8 @@ function Get-GraphTokens {
         $global:Tenantid = $TokenObject.tid
 
         # Store tokens globally
-        $global:Tokens = $tokens
-
+        $global:Tokens = $TokenObject.aio
+        $global:Tokens = $TokenObject.aio
         # Return tokens if called as an external function
         if ($ExternalCall) {
             return $Tokens
